@@ -1,20 +1,19 @@
-The competition solution workflow goes through seven stages described in the Data Science Solutions book.
+# House Price Prediction - Exploratory Data Analysis
 
-1. Question or problem definition.
-2. Acquire training and testing data.
-3. Wrangle, prepare, cleanse the data.
-4. Analyze, identify patterns, and explore the data.
-5. Model, predict and solve the problem.
-6. Visualize, report, and present the problem solving steps and final solution.
-7. Supply or submit the results.
+## Introduction
+This project aims to perform an exploratory data analysis on housing data obtained from a Kaggle competition. The goal is to gather insights and create visualizations using Tableau to better understand the housing market. The project also has the possibility of adding a logistic regression machine learning model to predict house prices.
 
-## Question and problem definition
-The question or problem definition for House Price competition is [described here at Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview).
+## Data
+The housing data used in this project comes from a Kaggle competition and includes features such as the location, number of rooms, square footage, and more.
 
-```
-Competition Description:
+## Methodology
+1. Data Cleaning: Perform cleaning operations on the data to ensure its quality and integrity for analysis.
+2. Exploratory Data Analysis: Use Python's Pandas library to perform an in-depth analysis of the data, including descriptive statistics and data visualizations.
+3. Data Visualization: Use Tableau to create interactive dashboards and visualizations to better understand and communicate the insights gained from the EDA.
+4. Optional: Logistic Regression Model: Consider building a logistic regression machine learning model to predict house prices.
 
-Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this playground competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
+## Results
+The results of this project will be a comprehensive understanding of the housing market and its various features, as well as visual representations of the insights gained from the EDA. If the logistic regression model is implemented, there will also be predictions for house prices.
 
-With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
-```
+## Conclusion
+This project will provide valuable insights into the housing market and its various features, allowing for a better understanding of the industry and its trends. Additionally, the visual representations created using Tableau will effectively communicate the findings to stakeholders.
